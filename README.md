@@ -1,27 +1,15 @@
-# Introduction
+先安装node.js
+运行：npm install
 
-This boilerplate is targeted towards large, serious projects and assumes you are somewhat familiar with Webpack and `weex-loader`. 
+npm install weex-toolkit -g
+npm install weex-toolkit -g
+这条命令会向你命令行环境中注册一个 weex 命令。你可以用 weex create 命令来创建一个空的模板项目：
 
-## Quickstart
+weex create awesome-app
 
-To use this template, scaffold a project with [weexpack v1.1.1+](https://github.com/weexteam/weex-pack).
-
-``` bash
-$ npm install -g weex-toolkit
-$ weex create my-project # default will create the webpack template
-$ cd my-project && npm start
-```
-
-## How to use less/sass/pug
-
-Take `sass` for example:
-
-```
-$ npm i node-sass sass-loader --save
-```
-
-Then, you just need to change the `style` tag as: `<style lang="sass"><style>`.
-
-## How to create your own template
-
-See [How-to-create-your-own-template](https://github.com/weex-templates/How-to-create-your-own-template).
+开发
+下一步就是进入刚刚创建的文件夹，并且安装依赖，然后执行 npm start：
+进入到项目的根目录，运行node.js cmd模式，运行
+cd awesome-app
+npm install
+npm start
